@@ -32,3 +32,20 @@ r=int(input("Enter the rate of interest: "))
 t=int(input("Enter the time period in years: "))
 interest=p*r*t/100
 print("Interest",interest)
+
+# Find the mediam three number:
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+c=int(input("Enter c: "))
+if b<a and a<c:
+    print(a)
+elif c<a and a<b:
+    print(a)
+elif a<b and b<c:
+    print(b)
+elif c<b and b<a:
+    print(b)
+elif b<c and a<b:
+    print(c)
+elif a<c and c<b:
+    print(c)
