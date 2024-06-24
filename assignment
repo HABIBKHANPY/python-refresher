@@ -1,0 +1,9 @@
+# calculate the areaoff a rectangle
+length=5
+width=3
+area=length*width
+print("The area of rectangle is",area)
+
+# Reversed string :Hello
+str="Hello"
+print(str[::-1])
