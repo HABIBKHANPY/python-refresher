@@ -7,3 +7,28 @@ print("The area of rectangle is",area)
 # Reversed string :Hello
 str="Hello"
 print(str[::-1])
+
+# check if a number even or odda
+number=int(input("enter num: "))
+if number%2==0:
+    print("even number")
+else:
+    print("odd number")
+
+# Find the larger among three number:
+a=int(input("num a: "))
+b=int(input("num b: "))
+c=int(input("num c: "))
+if a>b and a>c:
+    print("The given number is larger: ",a)
+if b>c and b>c:
+    print("The given number is larger: ",b)
+if c>a and c>b:
+    print("The given number is larger: ",c)
+
+# Calculate the simple interest
+p=int(input("Enter the principal amount: "))
+r=int(input("Enter the rate of interest: "))
+t=int(input("Enter the time period in years: "))
+interest=p*r*t/100
+print("Interest",interest)
