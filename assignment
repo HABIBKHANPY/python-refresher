@@ -45,6 +45,10 @@ elif a<b and b<c:
     print(b)
 elif c<b and b<a:
     print(b)
+elif b<c and a<b:
+    print(c)
+elif a<c and c<b:
+    print(c)
 
 # Generate Fibonacci Series up to n terms:
 first_num=0
@@ -56,7 +60,4 @@ for i in range(1,7):
     second_num=third_num
 
 
-elif b<c and a<b:
-    print(c)
-elif a<c and c<b:
-    print(c)
+
