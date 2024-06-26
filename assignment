@@ -45,6 +45,17 @@ elif a<b and b<c:
     print(b)
 elif c<b and b<a:
     print(b)
+
+# Generate Fibonacci Series up to n terms:
+first_num=0
+second_num=1
+for i in range(1,7):
+    print(first_num)
+    third_num=first_num+second_num
+    first_num=second_num
+    second_num=third_num
+
+
 elif b<c and a<b:
     print(c)
 elif a<c and c<b:
