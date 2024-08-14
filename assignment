@@ -1,21 +1,21 @@
-# calculate the areaoff a rectangle
+1# calculate the areaoff a rectangle
 length=5
 width=3
 area=length*width
 print("The area of rectangle is",area)
 
-# Reversed string :Hello
+2# Reversed string :Hello
 str="Hello"
 print(str[::-1])
 
-# check if a number even or odda
+3# check if a number even or odda
 number=int(input("enter num: "))
 if number%2==0:
     print("even number")
 else:
     print("odd number")
 
-# Find the larger among three number:
+4# Find the larger among three number:
 a=int(input("num a: "))
 b=int(input("num b: "))
 c=int(input("num c: "))
@@ -26,14 +26,14 @@ if b>c and b>c:
 if c>a and c>b:
     print("The given number is larger: ",c)
 
-# Calculate the simple interest
+5# Calculate the simple interest
 p=int(input("Enter the principal amount: "))
 r=int(input("Enter the rate of interest: "))
 t=int(input("Enter the time period in years: "))
 interest=p*r*t/100
 print("Interest",interest)
 
-# Find the mediam three number:
+6# Find the mediam three number:
 a=int(input("Enter a: "))
 b=int(input("Enter b: "))
 c=int(input("Enter c: "))
@@ -50,7 +50,7 @@ elif b<c and a<b:
 elif a<c and c<b:
     print(c)
 
-# Generate Fibonacci Series up to n terms:
+7# Generate Fibonacci Series up to n terms:
 first_num=0
 second_num=1
 for i in range(1,7):
